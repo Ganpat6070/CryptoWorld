@@ -1,0 +1,96 @@
+.avatarStyle {
+  height: 2.8rem;
+  width: 2.7rem;
+  margin-left: 15px;
+  cursor: pointer;
+  /* background-color: #4b4343; */
+  margin-left: 130%;
+}
+.avatarStyle:hover {
+  transform: scale(1.1);
+}
+
+.sidebarContainer {
+  width: 720px;
+  padding: 55px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: monospace;
+}
+
+.sidebarEmailAndName {
+  width: 100%;
+  font-size: 25px;
+  text-align: center;
+  font-weight: bolder;
+  word-wrap: break-word;
+  /* color: black; */
+}
+
+.sidebarProfile {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  padding-top: 30px;
+}
+
+.logoutStyle {
+  height: 50px;
+  width: 100%;
+  background-color: #eebc1d;
+  margin-top: 20px;
+  color: white;
+  /* font-weight: bold; */
+  font-size: 18px;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+
+.logoutStyle:hover {
+  background-color: #fdb813;
+}
+
+.watchListStyle {
+  flex: 1;
+  width: 100%;
+  /* background-color: grey; */
+  border-radius: 10px;
+  padding: 15;
+  padding-top: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12;
+  overflow-y: scroll;
+}
+
+.coinListStyle {
+  padding: 10px;
+  border-radius: 5px;
+  color: black;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: burlywood; */
+  box-sizing: 0 0 3px black;
+}
+
+.coinListStyle:hover {
+  background-color: #eebc1d;
+  font-size: 15px;
+}
+
+.removeStyle {
+  cursor: pointer;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-left: 15px;
+}
+.removeStyle:hover{
+  font-size: 30px;
+}

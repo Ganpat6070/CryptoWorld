@@ -1,0 +1,28 @@
+.title {
+    flex: 1;
+    color: gold;
+    font-family: Helvetica;
+    cursor: "pointer";
+    font-size: xx-large;
+    
+  }
+
+.navContent{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    font-size: 22px;
+    justify-content: space-between;
+}
+.navLinks{
+  transition: 0.3s;
+  margin-left: 80px;
+  
+}
+.navLinks:hover{
+  background-color: #14181A;
+  border-bottom: 1px solid goldenrod;
+  border-radius: 3px;
+  padding: 1px;
+  color: white !important;
+}
