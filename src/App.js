@@ -46,7 +46,7 @@ function App() {
             <Header mode={mode} setMode={setMode} />
             <Routes>
               <Route path="/CryptoWorld" element={<Homepage />} exact></Route>
-              <Route path="" element={<Homepage />} exact></Route>
+              <Route path="/" element={<Homepage />} exact></Route>
               <Route
                 path="/coins/:id"
                 element={<Fullview mode={mode} setMode={setMode} />}
