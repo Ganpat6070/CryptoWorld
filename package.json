@@ -1,5 +1,6 @@
 {
   "name": "crypto-tracker",
+  "homepage": "https://Ganpat6070.github.io/CryptoWorld",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,6 +22,7 @@
     "buffer": "^6.0.3",
     "chart.js": "^2.9.4",
     "firebase": "^9.18.0",
+    "gh-pages": "^5.0.0",
     "mdb-react-ui-kit": "^6.0.0",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.7.0",
@@ -35,6 +37,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
