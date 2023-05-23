@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CryptoWorld/static/css/main.f6f04551.css",
-    "main.js": "/CryptoWorld/static/js/main.f4bb54b3.js",
-    "static/js/787.05aab820.chunk.js": "/CryptoWorld/static/js/787.05aab820.chunk.js",
-    "static/media/background.jpg": "/CryptoWorld/static/media/background.19419d69e5001e322fee.jpg",
-    "index.html": "/CryptoWorld/index.html",
-    "main.f6f04551.css.map": "/CryptoWorld/static/css/main.f6f04551.css.map",
-    "main.f4bb54b3.js.map": "/CryptoWorld/static/js/main.f4bb54b3.js.map",
-    "787.05aab820.chunk.js.map": "/CryptoWorld/static/js/787.05aab820.chunk.js.map"
+    "main.css": "./static/css/main.79a63a57.css",
+    "main.js": "./static/js/main.615d80a9.js",
+    "static/js/787.05aab820.chunk.js": "./static/js/787.05aab820.chunk.js",
+    "static/media/background.jpg": "./static/media/background.19419d69e5001e322fee.jpg",
+    "index.html": "./index.html",
+    "main.79a63a57.css.map": "./static/css/main.79a63a57.css.map",
+    "main.615d80a9.js.map": "./static/js/main.615d80a9.js.map",
+    "787.05aab820.chunk.js.map": "./static/js/787.05aab820.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6f04551.css",
-    "static/js/main.f4bb54b3.js"
+    "static/css/main.79a63a57.css",
+    "static/js/main.615d80a9.js"
   ]
 }
